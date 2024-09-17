@@ -2,9 +2,9 @@
 
 This is a fork from the [official Milesight Repo.](https://github.com/Milesight-IoT/codec)
 
-I added usefull and for us needed information about the sensor to the payload encoder to use this information via mqtt.
+I added usefull and for us needed information about the sensors to the payload encoder to use this information via mqtt.
 
-# Added info
+# Added info to all sensors
 
 the added infos are based on the [LoRaObject](https://github.com/Milesight-IoT/SensorDecoders/blob/main/LoRaObject.md)
 
