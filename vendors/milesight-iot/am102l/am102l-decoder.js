@@ -137,7 +137,7 @@ function injectLoRaData(decoded) {
     decoded.mac = LoRaObject.rxInfo[0].mac;
     decoded.gw = LoRaObject.rxInfo[0].name;
     decoded.timestamp = LoRaObject.time;
-    decoded.type = 'AM102';
+    decoded.type = 'AM102L';
 
     return decoded;
 }
