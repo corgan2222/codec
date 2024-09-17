@@ -3,7 +3,7 @@
     "devices": [
         {
             "id": "am102",
-            "name": "AM102.",
+            "name": "AM102",
             "description": "Indoor Ambience Monitoring Sensor",
             "catalog": "am100",
             "sn": "6725",

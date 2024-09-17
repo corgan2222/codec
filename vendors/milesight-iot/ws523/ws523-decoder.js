@@ -11,6 +11,7 @@ function Decode(fPort, bytes) {
 
 function milesight(bytes) {
     var decoded = {};
+    injectLoRaData(decoded);
 
     for (var i = 0; i < bytes.length; ) {
         var channel_id = bytes[i++];
@@ -212,4 +213,19 @@ if (!Object.assign) {
             return to;
         },
     });
+}
+
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'WS523';
+
+    return decoded;
 }

@@ -11,6 +11,7 @@ function Decode(fPort, bytes) {
 
 function milesight(bytes) {
     var decoded = {};
+    injectLoRaData(decoded);
     var i = 0;
     var head = bytes[i];
     var command = ["", "control", "request"][bytes[i + 1]];
@@ -72,4 +73,19 @@ function readUInt16BE(bytes) {
 function readInt16BE(bytes) {
     var ref = readUInt16BE(bytes);
     return ref > 0x7fff ? ref - 0x10000 : ref;
+}
+
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'WT301';
+
+    return decoded;
 }

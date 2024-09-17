@@ -11,15 +11,7 @@ function Decode(fPort, bytes) {
 
 function milesight(bytes) {
     var decoded = {};
-
-    decoded.devEUI = LoRaObject.devEUI; 
-    decoded.applicationName = LoRaObject.applicationName; 
-    decoded.deviceName = LoRaObject.deviceName; 
-    decoded.rssi = LoRaObject.rxInfo[0].rssi; 
-    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR; 
-    decoded.mac = LoRaObject.rxInfo[0].mac; 
-    decoded.gw = LoRaObject.rxInfo[0].name; 
-    decoded.type = 'AM102';     
+    injectLoRaData(decoded);
 
     for (var i = 0; i < bytes.length; ) {
         var channel_id = bytes[i++];
@@ -133,4 +125,18 @@ function readSerialNumber(bytes) {
         temp.push(("0" + (bytes[idx] & 0xff).toString(16)).slice(-2));
     }
     return temp.join("");
+}
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'AM102';
+
+    return decoded;
 }
