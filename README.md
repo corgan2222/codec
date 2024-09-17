@@ -2,7 +2,7 @@
 
 This is a fork from the [official Milesight Repo.](https://github.com/Milesight-IoT/codec)
 
-I added usefull and for us needed information about the sensors to the payload encoder to use this information via mqtt.
+I added usefull and for us needed information about the sensors to all payload encoder to use this information via mqtt.
 
 # Added info to all sensors
 
@@ -58,7 +58,7 @@ the added infos are based on the [LoRaObject](https://github.com/Milesight-IoT/S
 }
 ```
 
-# How to use on UG65+ Gateways
+# How to use on Milesight Gateways: UG56/UG65/UG67
 
 1. Download this repo as [ZIP file](https://github.com/corgan2222/codec/archive/refs/heads/release.zip).
 2. On your Milesight Gateway go to "Network Server/Payload Codec"
@@ -66,4 +66,8 @@ the added infos are based on the [LoRaObject](https://github.com/Milesight-IoT/S
 
 Only the bigger Gateways have the feature to upload all codecs at once. On the smaler gateways like the UG63 mini you have to copy each payload codec by hand.
 
+# Helpfull Links
 
+- [Locally Upload Payload Codec Library file to Milesight Gateway ](https://support.milesight-iot.com/support/solutions/articles/73000636885-locally-upload-payload-codec-library-file-to-milesight-gateway)
+- [How to Use Payload Codec on Milesight Gateway](https://support.milesight-iot.com/support/solutions/articles/73000600064)
+- [How to Use Payload Codec on Milesight Gateway (old)](https://support.milesight-iot.com/support/solutions/articles/73000514270-how-to-use-payload-codec-on-milesight-gateway-old-)
