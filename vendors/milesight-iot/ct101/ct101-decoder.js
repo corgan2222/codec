@@ -3,7 +3,7 @@
  *
  * Copyright 2024 Milesight IoT
  *
- * @product CT101 / CT103
+ * @product CT101
  */
 function Decode(fPort, bytes) {
     return milesight(bytes);

@@ -1,0 +1,2313 @@
+{
+    "version": "1.0.0",
+    "devices": [
+        {
+            "id": "am102",
+            "name": "AM102",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6725",
+            "deveui": "24e124725",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am102/am102-codec.json",
+            "decoder_script": "vendors/milesight-iot/am102/am102-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am102/am102-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am102l",
+            "name": "AM102L",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6725",
+            "deveui": "24e124725",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am102l/am102l-codec.json",
+            "decoder_script": "vendors/milesight-iot/am102l/am102l-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am102l/am102l-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am103",
+            "name": "AM103",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6725",
+            "deveui": "24e124725",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am103/am103-codec.json",
+            "decoder_script": "vendors/milesight-iot/am103/am103-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am103/am103-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "co2",
+                "temperature_enable",
+                "humidity_enable",
+                "co2_enable",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am103l",
+            "name": "AM103L",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6725",
+            "deveui": "24e124725",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am103l/am103l-codec.json",
+            "decoder_script": "vendors/milesight-iot/am103l/am103l-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am103l/am103l-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "co2",
+                "temperature_enable",
+                "humidity_enable",
+                "co2_enable",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am104",
+            "name": "AM104",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6127",
+            "deveui": "24e124127",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am104/am104-codec.json",
+            "decoder_script": "vendors/milesight-iot/am104/am104-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am104/am104-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "activity",
+                "pir",
+                "illumination",
+                "visible_and_infrared",
+                "infrared",
+                "temperature_enable",
+                "humidity_enable",
+                "pir_enable",
+                "illumination_enable",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am107",
+            "name": "AM107",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am100",
+            "sn": "6128",
+            "deveui": "24e124128",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am107/am107-codec.json",
+            "decoder_script": "vendors/milesight-iot/am107/am107-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am107/am107-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "activity",
+                "pir",
+                "illumination",
+                "visible_and_infrared",
+                "infrared",
+                "co2",
+                "tvoc",
+                "pressure",
+                "temperature_enable",
+                "humidity_enable",
+                "pir_enable",
+                "illumination_enable",
+                "co2_enable",
+                "tvoc_enable",
+                "pressure_enable",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am307",
+            "name": "AM307",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6707",
+            "deveui": "24e124707",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am307/am307-codec.json",
+            "decoder_script": "vendors/milesight-iot/am307/am307-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am307/am307-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am307l",
+            "name": "AM307L",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6707",
+            "deveui": "24e124707",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am307l/am307l-codec.json",
+            "decoder_script": "vendors/milesight-iot/am307l/am307l-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am307l/am307l-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am308",
+            "name": "AM308",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6707",
+            "deveui": "24e124707",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am308/am308-codec.json",
+            "decoder_script": "vendors/milesight-iot/am308/am308-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am308/am308-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "pm2_5",
+                "pm10",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am308l",
+            "name": "AM308L",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6707",
+            "deveui": "24e124707",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am308l/am308l-codec.json",
+            "decoder_script": "vendors/milesight-iot/am308l/am308l-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am308l/am308l-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "pm2_5",
+                "pm10",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am319_hcho",
+            "name": "AM319-HCHO",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6710",
+            "deveui": "24e124710",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am319-hcho/am319-hcho-codec.json",
+            "decoder_script": "vendors/milesight-iot/am319-hcho/am319-hcho-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am319-hcho/am319-hcho-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "hcho",
+                "pm2_5",
+                "pm10",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am319_hcho_ir",
+            "name": "AM319-HCHO-IR",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6710",
+            "deveui": "24e124710",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am319-hcho-ir/am319-hcho-ir-codec.json",
+            "decoder_script": "vendors/milesight-iot/am319-hcho-ir/am319-hcho-ir-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am319-hcho-ir/am319-hcho-ir-encoder.js"
+        },
+        {
+            "id": "am319_o3",
+            "name": "AM319-O3",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6710",
+            "deveui": "24e124710",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am319-o3/am319-o3-codec.json",
+            "decoder_script": "vendors/milesight-iot/am319-o3/am319-o3-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am319-o3/am319-o3-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "pm2_5",
+                "pm10",
+                "o3",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am319l_hcho_ir",
+            "name": "AM319L-HCHO-IR",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6710",
+            "deveui": "24e124710",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am319l-hcho-ir/am319l-hcho-ir-codec.json",
+            "decoder_script": "vendors/milesight-iot/am319l-hcho-ir/am319l-hcho-ir-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am319l-hcho-ir/am319l-hcho-ir-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "hcho",
+                "pm2_5",
+                "pm10",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "am319l_o3",
+            "name": "AM319L-O3",
+            "description": "Indoor Ambience Monitoring Sensor",
+            "catalog": "am300",
+            "sn": "6710",
+            "deveui": "24e124710",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/am319l-o3/am319l-o3-codec.json",
+            "decoder_script": "vendors/milesight-iot/am319l-o3/am319l-o3-decoder.js",
+            "encoder_script": "vendors/milesight-iot/am319l-o3/am319l-o3-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "pir",
+                "light_level",
+                "co2",
+                "tvoc",
+                "tvoc",
+                "pressure",
+                "pm2_5",
+                "pm10",
+                "o3",
+                "buzzer_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "at101",
+            "name": "AT101",
+            "description": "Outdoor Asset Tracker",
+            "catalog": "at",
+            "sn": "6745",
+            "deveui": "24e124745",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/at101/at101-codec.json",
+            "decoder_script": "vendors/milesight-iot/at101/at101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/at101/at101-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "latitude",
+                "longitude",
+                "motion_status",
+                "geofence_status",
+                "position",
+                "wifi_scan_result",
+                "wifi_scan_result",
+                "motion_status",
+                "wifi",
+                "tamper_status",
+                "temperature",
+                "temperature_abnormal",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ct101",
+            "name": "CT101",
+            "description": "Smart Current Transformer",
+            "catalog": "ct",
+            "sn": "6746",
+            "deveui": "24e124746",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ct101/ct101-codec.json",
+            "decoder_script": "vendors/milesight-iot/ct101/ct101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ct101/ct101-encoder.js",
+            "device_entities": [
+                "total_current",
+                "current_alarm",
+                "current",
+                "current_max",
+                "current_min",
+                "current",
+                "current_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ct103",
+            "name": "CT103",
+            "description": "Smart Current Transformer",
+            "catalog": "ct",
+            "sn": "6746",
+            "deveui": "24e124746",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ct101/ct101-codec.json",
+            "decoder_script": "vendors/milesight-iot/ct101/ct101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ct101/ct101-encoder.js",
+            "device_entities": [
+                "total_current",
+                "current_alarm",
+                "current",
+                "current_max",
+                "current_min",
+                "current",
+                "current_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ds3604",
+            "name": "DS3604",
+            "description": "Smart Eink Display",
+            "catalog": "ds",
+            "sn": "6601",
+            "deveui": "24e124601",
+            "device_profile": [
+                "ClassB-OTAA",
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ds3604/ds3604-codec.json",
+            "decoder_script": "vendors/milesight-iot/ds3604/ds3604-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ds3604/ds3604-encoder.js",
+            "device_entities": [
+                "battery",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_cl",
+            "name": "EM300-CL",
+            "description": "Capacitive Level Sensor",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-cl/em300-cl-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-cl/em300-cl-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-cl/em300-cl-encoder.js",
+            "device_entities": [
+                "battery",
+                "liquid_alarm",
+                "liquid",
+                "calibration_result",
+                "liquid",
+                "liquid_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_di",
+            "name": "EM300-DI",
+            "description": "Pulse Counter",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-di/em300-di-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-di/em300-di-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-di/em300-di-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "gpio",
+                "gpio_type",
+                "pulse",
+                "gpio_type",
+                "water_conv",
+                "pulse_conv",
+                "water",
+                "gpio_type",
+                "gpio",
+                "gpio_alarm",
+                "water_conv",
+                "pulse_conv",
+                "water",
+                "water_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_di_hall",
+            "name": "EM300-DI-Hall",
+            "description": "Pulse Counter with Hall",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-di-hall/em300-di-hall-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-di-hall/em300-di-hall-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-di-hall/em300-di-hall-encoder.js"
+        },
+        {
+            "id": "em300_mcs",
+            "name": "EM300-MCS",
+            "description": "Magnetic Contact Switch",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-mcs/em300-mcs-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-mcs/em300-mcs-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-mcs/em300-mcs-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "magnet_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_mld",
+            "name": "EM300-MLD",
+            "description": "Membrane Leak Detection Sensor",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-mld/em300-mld-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-mld/em300-mld-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-mld/em300-mld-encoder.js",
+            "device_entities": [
+                "battery",
+                "leakage_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_sld",
+            "name": "EM300-SLD",
+            "description": "Spot Leak Detection Sensor",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-sld/em300-sld-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-sld/em300-sld-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-sld/em300-sld-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "leakage_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_th",
+            "name": "EM300-TH",
+            "description": "Temperature & Humidity Sensor",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-th/em300-th-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-th/em300-th-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-th/em300-th-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em300_zld",
+            "name": "EM300-ZLD",
+            "description": "Zone Leak Detection Sensor",
+            "catalog": "em300",
+            "sn": "6136",
+            "deveui": "24e124136",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em300-zld/em300-zld-codec.json",
+            "decoder_script": "vendors/milesight-iot/em300-zld/em300-zld-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em300-zld/em300-zld-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "leakage_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em310_tilt",
+            "name": "EM310-TILT",
+            "description": "Tilt Sensor",
+            "catalog": "em310",
+            "sn": "6713",
+            "deveui": "24e124713",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em310-tilt/em310-tilt-codec.json",
+            "decoder_script": "vendors/milesight-iot/em310-tilt/em310-tilt-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em310-tilt/em310-tilt-encoder.js",
+            "device_entities": [
+                "battery",
+                "angle_x",
+                "angle_y",
+                "angle_z",
+                "threshold_x",
+                "threshold_y",
+                "threshold_z",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em310_udl",
+            "name": "EM310-UDL",
+            "description": "Ultrasonic Distance/Level Sensor",
+            "catalog": "em310",
+            "sn": "6713",
+            "deveui": "24e124713",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em310-udl/em310-udl-codec.json",
+            "decoder_script": "vendors/milesight-iot/em310-udl/em310-udl-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em310-udl/em310-udl-encoder.js",
+            "device_entities": [
+                "battery",
+                "distance",
+                "position",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em320_th",
+            "name": "EM320-TH",
+            "description": "Temperature & Humidity Sensor",
+            "catalog": "em320",
+            "sn": "6785",
+            "deveui": "24e124785",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em320-th/em320-th-codec.json",
+            "decoder_script": "vendors/milesight-iot/em320-th/em320-th-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em320-th/em320-th-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em320_tilt",
+            "name": "EM320-TILT",
+            "description": "Tilt Sensor",
+            "catalog": "em320",
+            "sn": "6785",
+            "deveui": "24e124785",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em320-tilt/em320-tilt-codec.json",
+            "decoder_script": "vendors/milesight-iot/em320-tilt/em320-tilt-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em320-tilt/em320-tilt-encoder.js",
+            "device_entities": [
+                "battery",
+                "angle_x",
+                "angle_y",
+                "angle_z",
+                "threshold_x",
+                "threshold_y",
+                "threshold_z",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em400_mud",
+            "name": "EM400-MUD",
+            "description": "Multifunctional Ultrasonic Distance/Level Sensor",
+            "catalog": "em400",
+            "sn": "6329",
+            "deveui": "24e124329",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em400-mud/em400-mud-codec.json",
+            "decoder_script": "vendors/milesight-iot/em400-mud/em400-mud-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em400-mud/em400-mud-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "distance",
+                "position",
+                "temperature",
+                "temperature_abnormal",
+                "distance",
+                "distance_abnormal",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em400_tld",
+            "name": "EM400-TLD",
+            "description": "ToF Laser Distance Sensor",
+            "catalog": "em400",
+            "sn": "6329",
+            "deveui": "24e124329",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em400-tld/em400-tld-codec.json",
+            "decoder_script": "vendors/milesight-iot/em400-tld/em400-tld-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em400-tld/em400-tld-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "distance",
+                "position",
+                "temperature",
+                "temperature_abnormal",
+                "distance",
+                "distance_abnormal",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em400_udl",
+            "name": "EM400-UDL",
+            "description": "Ultrasonic Distance/ Level Sensor",
+            "catalog": "em400",
+            "sn": "6329",
+            "deveui": "24e124329",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em400-udl/em400-udl-codec.json",
+            "decoder_script": "vendors/milesight-iot/em400-udl/em400-udl-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em400-udl/em400-udl-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "distance",
+                "position",
+                "temperature",
+                "temperature_abnormal",
+                "distance",
+                "distance_abnormal",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_co2",
+            "name": "EM500-CO2",
+            "description": "CO2 Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-co2/em500-co2-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-co2/em500-co2-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-co2/em500-co2-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "co2",
+                "pressure",
+                "temperature",
+                "temperature_change",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_lgt",
+            "name": "EM500-LGT",
+            "description": "Light Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-lgt/em500-lgt-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-lgt/em500-lgt-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-lgt/em500-lgt-encoder.js",
+            "device_entities": [
+                "battery",
+                "illumination",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_pp",
+            "name": "EM500-PP",
+            "description": "Pipe Pressure Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-pp/em500-pp-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-pp/em500-pp-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-pp/em500-pp-encoder.js",
+            "device_entities": [
+                "battery",
+                "pressure",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_pt100",
+            "name": "EM500-PT100",
+            "description": "Industrial Temperature Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-pt100/em500-pt100-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-pt100/em500-pt100-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-pt100/em500-pt100-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "temperature",
+                "temperature_change",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_smtc",
+            "name": "EM500-SMTC",
+            "description": "Soil Moisture, Temperature and Electrical Conductivity Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-smtc/em500-smtc-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-smtc/em500-smtc-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-smtc/em500-smtc-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "moisture",
+                "moisture",
+                "ec",
+                "temperature",
+                "temperature_change",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_swl",
+            "name": "EM500-SWL",
+            "description": "Submersible Water Level Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-swl/em500-swl-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-swl/em500-swl-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-swl/em500-swl-encoder.js",
+            "device_entities": [
+                "battery",
+                "water_level",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "em500_udl",
+            "name": "EM500-UDL",
+            "description": "Ultrasonic Distance/Level Sensor",
+            "catalog": "em500",
+            "sn": "6126",
+            "deveui": "24e124126",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/em500-udl/em500-udl-codec.json",
+            "decoder_script": "vendors/milesight-iot/em500-udl/em500-udl-decoder.js",
+            "encoder_script": "vendors/milesight-iot/em500-udl/em500-udl-encoder.js",
+            "device_entities": [
+                "battery",
+                "distance",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "gs101",
+            "name": "GS101",
+            "description": "GAS Detector",
+            "catalog": "gs",
+            "sn": "6747",
+            "deveui": "24e124747",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/gs101/gs101-codec.json",
+            "decoder_script": "vendors/milesight-iot/gs101/gs101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/gs101/gs101-encoder.js",
+            "device_entities": [
+                "gas_status",
+                "valve_status",
+                "relay",
+                "remain_time",
+                "alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "gs301",
+            "name": "GS301",
+            "description": "Bathroom Odor Detector",
+            "catalog": "gs",
+            "sn": "6798",
+            "deveui": "24e124798",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/gs301/gs301-codec.json",
+            "decoder_script": "vendors/milesight-iot/gs301/gs301-decoder.js",
+            "encoder_script": "vendors/milesight-iot/gs301/gs301-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "nh3",
+                "h2s",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ts101",
+            "name": "TS101",
+            "description": "Insertion Temperature Sensor",
+            "catalog": "ts",
+            "sn": "6732",
+            "deveui": "24e124732",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ts101/ts101-codec.json",
+            "decoder_script": "vendors/milesight-iot/ts101/ts101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ts101/ts101-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "temperature",
+                "temperature",
+                "temperature_change",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ts201",
+            "name": "TS201",
+            "description": "Temperature Sensor",
+            "catalog": "ts",
+            "sn": "6809",
+            "deveui": "24e124809",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ts201/ts201-codec.json",
+            "decoder_script": "vendors/milesight-iot/ts201/ts201-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ts201/ts201-encoder.js",
+            "device_entities": [
+                "tsl_version",
+                "battery",
+                "temperature",
+                "temperature",
+                "event",
+                "temperature",
+                "event",
+                "event",
+                "sync_time",
+                "report_interval",
+                "collection_interval",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ts301",
+            "name": "TS301",
+            "description": "Temperature Sensor",
+            "catalog": "ts",
+            "sn": "6723",
+            "deveui": "24e124723",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ts301/ts301-codec.json",
+            "decoder_script": "vendors/milesight-iot/ts301/ts301-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ts301/ts301-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "magnet",
+                "temperature",
+                "temperature",
+                "temperature_change",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ts302",
+            "name": "TS302",
+            "description": "Temperature Sensor",
+            "catalog": "ts",
+            "sn": "6723",
+            "deveui": "24e124723",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ts302/ts302-codec.json",
+            "decoder_script": "vendors/milesight-iot/ts302/ts302-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ts302/ts302-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature_chn1",
+                "magnet_chn1",
+                "temperature_chn2",
+                "magnet_chn2",
+                "temperature_chn1",
+                "temperature_alarm_chn1",
+                "temperature_chn2",
+                "temperature_alarm_chn2",
+                "temperature_chn1",
+                "temperature_change_chn1",
+                "temperature_alarm_chn1",
+                "temperature_chn2",
+                "temperature_change_chn2",
+                "temperature_alarm_chn2",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "uc11_n1",
+            "name": "UC11-N1",
+            "description": "Multi-interface Controller",
+            "catalog": "uc11",
+            "sn": "6411",
+            "deveui": "24e124411",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc11-n1/uc11-n1-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc11-n1/uc11-n1-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc11-n1/uc11-n1-encoder.js",
+            "device_entities": [
+                "battery",
+                "gpio_1",
+                "gpio_2",
+                "gpio_counter",
+                "adc_1",
+                "adc_1_min",
+                "adc_1_max",
+                "adc_1_avg",
+                "adc_2",
+                "adc_2_min",
+                "adc_2_max",
+                "adc_2_avg",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "uc11_t1",
+            "name": "UC11-T1",
+            "description": "Temperature & Humidity Sensorr",
+            "catalog": "uc11",
+            "sn": "6410",
+            "deveui": "24e124410",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc11-t1/uc11-t1-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc11-t1/uc11-t1-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc11-t1/uc11-t1-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "uc1114",
+            "name": "UC1114",
+            "description": "Multi-interface Controller",
+            "catalog": "uc11",
+            "sn": "6116",
+            "deveui": "24e124116",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc11xx/uc11xx-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc11xx/uc11xx-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc11xx/uc11xx-encoder.js"
+        },
+        {
+            "id": "uc1122",
+            "name": "UC1122",
+            "description": "Multi-interface Controller",
+            "catalog": "uc11",
+            "sn": "6121",
+            "deveui": "24e124121",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc11xx/uc11xx-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc11xx/uc11xx-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc11xx/uc11xx-encoder.js"
+        },
+        {
+            "id": "uc1152",
+            "name": "UC1152",
+            "description": "Multi-interface Controller",
+            "catalog": "uc11",
+            "sn": "6122",
+            "deveui": "24e124122",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc11xx/uc11xx-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc11xx/uc11xx-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc11xx/uc11xx-encoder.js"
+        },
+        {
+            "id": "uc501",
+            "name": "UC501",
+            "description": "Multi-interface Controller",
+            "catalog": "uc500",
+            "sn": "6454",
+            "deveui": "24e124454",
+            "device_profile": [
+                "ClassA-OTAA",
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc50x/uc50x-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc50x/uc50x-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc50x/uc50x-encoder.js"
+        },
+        {
+            "id": "uc502",
+            "name": "UC502",
+            "description": "Multi-interface Controller",
+            "catalog": "uc500",
+            "sn": "6454",
+            "deveui": "24e124454",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc50x/uc50x-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc50x/uc50x-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc50x/uc50x-encoder.js"
+        },
+        {
+            "id": "uc511_di",
+            "name": "UC511-DI",
+            "description": "Solenoid Valve Controller",
+            "catalog": "uc500",
+            "sn": "6460",
+            "deveui": "24e124460",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassA-OTAA",
+                "ClassB-OTAA",
+                "ClassCB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc51x/uc51x-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc51x/uc51x-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc51x/uc51x-encoder.js"
+        },
+        {
+            "id": "uc512_di",
+            "name": "UC512-DI",
+            "description": "Solenoid Valve Controller",
+            "catalog": "uc500",
+            "sn": "6460",
+            "deveui": "24e124460",
+            "device_profile": [
+                "ClassA-OTAA",
+                "ClassB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc51x/uc51x-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc51x/uc51x-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc51x/uc51x-encoder.js"
+        },
+        {
+            "id": "uc100",
+            "name": "UC100",
+            "description": "Controller",
+            "catalog": "uc",
+            "sn": "6468",
+            "deveui": "24e124468",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc100/uc100-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc100/uc100-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc100/uc100-encoder.js",
+            "device_entities": [
+                "custom_message",
+                "report_interval",
+                "modbus_config",
+                "modbus_config",
+                "modbus_config",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "uc300",
+            "name": "UC300",
+            "description": "Controller",
+            "catalog": "uc",
+            "sn": "6445",
+            "deveui": "24e124445",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/uc300/uc300-codec.json",
+            "decoder_script": "vendors/milesight-iot/uc300/uc300-decoder.js",
+            "encoder_script": "vendors/milesight-iot/uc300/uc300-encoder.js",
+            "device_entities": [
+                "text",
+                "sync_time",
+                "report_interval",
+                "collection_interval",
+                "timezone",
+                "sniffer_config",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs121",
+            "name": "VS121",
+            "description": "AI Workplace Occupancy Sensor",
+            "catalog": "vs",
+            "sn": "6600",
+            "deveui": "24e124600",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs121/vs121-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs121/vs121-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs121/vs121-encoder.js",
+            "device_entities": [
+                "people_count_all",
+                "region_count",
+                "people_in",
+                "people_out",
+                "people_count_max",
+                "region_1_count",
+                "region_2_count",
+                "region_3_count",
+                "region_4_count",
+                "region_5_count",
+                "region_6_count",
+                "region_7_count",
+                "region_8_count",
+                "region_9_count",
+                "region_10_count",
+                "region_11_count",
+                "region_12_count",
+                "region_13_count",
+                "region_14_count",
+                "region_15_count",
+                "region_16_count",
+                "a_to_a",
+                "a_to_b",
+                "a_to_c",
+                "a_to_d",
+                "b_to_a",
+                "b_to_b",
+                "b_to_c",
+                "b_to_d",
+                "c_to_a",
+                "c_to_b",
+                "c_to_c",
+                "c_to_d",
+                "d_to_a",
+                "d_to_b",
+                "d_to_c",
+                "d_to_d",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs132",
+            "name": "VS132",
+            "description": "3D ToF People Counting Sensor",
+            "catalog": "vs",
+            "sn": "6614",
+            "deveui": "24e124614",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs132/vs132-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs132/vs132-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs132/vs132-encoder.js",
+            "device_entities": [
+                "total_counter_in",
+                "total_counter_out",
+                "periodic_counter_in",
+                "periodic_counter_out",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs133",
+            "name": "VS133",
+            "description": "AI ToF People Counting Sensor",
+            "catalog": "vs",
+            "sn": "6757",
+            "deveui": "24e124757",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs133/vs133-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs133/vs133-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs133/vs133-encoder.js",
+            "device_entities": [
+                "region_1_count",
+                "region_2_count",
+                "region_3_count",
+                "region_4_count",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs330",
+            "name": "VS330",
+            "description": "Bathroom Occupancy Sensor",
+            "catalog": "vs",
+            "sn": "6617",
+            "deveui": "24e124617",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs330/vs330-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs330/vs330-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs330/vs330-encoder.js",
+            "device_entities": [
+                "battery",
+                "distance",
+                "occupancy",
+                "calibration_result",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs340",
+            "name": "VS340",
+            "description": "Desk & Seat Occupancy Sensor",
+            "catalog": "vs",
+            "sn": "6787",
+            "deveui": "24e124787",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs340/vs340-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs340/vs340-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs340/vs340-encoder.js",
+            "device_entities": [
+                "battery",
+                "occupancy",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs341",
+            "name": "VS341",
+            "description": "Desk & Seat Occupancy Sensor",
+            "catalog": "vs",
+            "sn": "6787",
+            "deveui": "24e124787",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs340/vs341-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs340/vs341-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs340/vs341-encoder.js",
+            "device_entities": [
+                "battery",
+                "occupancy",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs350",
+            "name": "VS350",
+            "description": "Passage People Counter",
+            "catalog": "vs",
+            "sn": "6716",
+            "deveui": "24e124716",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs350/vs350-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs350/vs350-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs350/vs350-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "total_in",
+                "total_out",
+                "period_in",
+                "period_out",
+                "temperature",
+                "total_in",
+                "total_out",
+                "total_count_alarm",
+                "period_in",
+                "period_out",
+                "period_count_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "vs351",
+            "name": "VS351",
+            "description": "Mini AI Thermopile People Counter",
+            "catalog": "vs",
+            "sn": "6799",
+            "deveui": "24e124799",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/vs351/vs351-codec.json",
+            "decoder_script": "vendors/milesight-iot/vs351/vs351-decoder.js",
+            "encoder_script": "vendors/milesight-iot/vs351/vs351-encoder.js",
+            "device_entities": [
+                "power_status",
+                "battery",
+                "temperature",
+                "total_in",
+                "total_out",
+                "period_in",
+                "period_out",
+                "temperature",
+                "total_in",
+                "total_out",
+                "total_count_alarm",
+                "period_in",
+                "period_out",
+                "period_count_alarm",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws101",
+            "name": "WS101",
+            "description": "Smart Button",
+            "catalog": "ws",
+            "sn": "6535",
+            "deveui": "24e124535",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws101/ws101-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws101/ws101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws101/ws101-encoder.js",
+            "device_entities": [
+                "battery",
+                "button",
+                "button_single_msgid",
+                "button_long_msgid",
+                "button_double_msgid",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws136",
+            "name": "WS136",
+            "description": "Smart Scene Panel",
+            "catalog": "ws",
+            "sn": "6592",
+            "deveui": "24e124592",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws136/ws136-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws136/ws136-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws136/ws136-encoder.js",
+            "device_entities": [
+                "battery",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws156",
+            "name": "WS156",
+            "description": "Smart Scene Panel With Screen",
+            "catalog": "ws",
+            "sn": "6592",
+            "deveui": "24e124592",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws156/ws156-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws156/ws156-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws156/ws156-encoder.js",
+            "device_entities": [
+                "battery",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws201",
+            "name": "WS201",
+            "description": "Smart Fill Level Monitoring Sensor",
+            "catalog": "ws",
+            "sn": "6983",
+            "deveui": "24e124983",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws201/ws201-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws201/ws201-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws201/ws201-encoder.js",
+            "device_entities": [
+                "battery",
+                "distance",
+                "remaining",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws202",
+            "name": "WS202",
+            "description": "PIR & Light Sensor",
+            "catalog": "ws",
+            "sn": "6538",
+            "deveui": "24e124538",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws202/ws202-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws202/ws202-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws202/ws202-encoder.js",
+            "device_entities": [
+                "battery",
+                "pir",
+                "light_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws203",
+            "name": "WS203",
+            "description": "PIR & Temperature Sensor",
+            "catalog": "ws",
+            "sn": "6791",
+            "deveui": "24e124791",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws203/ws203-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws203/ws203-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws203/ws203-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "humidity",
+                "occupancy",
+                "temperature",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws301",
+            "name": "WS301",
+            "description": "Magnetic Contact Switch",
+            "catalog": "ws",
+            "sn": "6141",
+            "deveui": "24e124141",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws301/ws301-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws301/ws301-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws301/ws301-encoder.js",
+            "device_entities": [
+                "battery",
+                "magnet_status",
+                "tamper_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws302",
+            "name": "WS302",
+            "description": "Sound Level Sensor",
+            "catalog": "ws",
+            "sn": "6743",
+            "deveui": "24e124743",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws302/ws302-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws302/ws302-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws302/ws302-encoder.js",
+            "device_entities": [
+                "battery",
+                "freq_weight",
+                "time_weight",
+                "la",
+                "laeq",
+                "lafmax",
+                "class_type",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws303",
+            "name": "WS303",
+            "description": "Mini Leak Detection Sensor",
+            "catalog": "ws",
+            "sn": "6993",
+            "deveui": "24e124993",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws303/ws303-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws303/ws303-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws303/ws303-encoder.js",
+            "device_entities": [
+                "battery",
+                "leakage_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws501",
+            "name": "WS501",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6145",
+            "deveui": "24e124145",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws501-v1/ws501-v1-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws501-v1/ws501-v1-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws501-v1/ws501-v1-encoder.js"
+        },
+        {
+            "id": "ws502",
+            "name": "WS502",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6146",
+            "deveui": "24e124146",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws502-v1/ws502-v1-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws502-v1/ws502-v1-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws502-v1/ws502-v1-encoder.js"
+        },
+        {
+            "id": "ws503",
+            "name": "WS503",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6147",
+            "deveui": "24e124147",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws503-v1/ws503-v1-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws503-v1/ws503-v1-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws503-v1/ws503-v1-encoder.js"
+        },
+        {
+            "id": "ws501_3w_w11",
+            "name": "WS501(3W-EU)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6771",
+            "deveui": "24e124771",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-encoder.js"
+        },
+        {
+            "id": "ws502_3w_w11",
+            "name": "WS502(3W-EU)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6771",
+            "deveui": "24e124771",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws502-v2/ws502-v2-electrical-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws502-v2/ws502-v2-electrical-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws502-v2/ws502-v2-electrical-encoder.js"
+        },
+        {
+            "id": "ws501_3w_w12",
+            "name": "WS501(3W-US)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6777",
+            "deveui": "24e124777",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-electrical-encoder.js"
+        },
+        {
+            "id": "ws501_2w_w11",
+            "name": "WS501(2W-EU/CN)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6782",
+            "deveui": "24e124782",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA",
+                "ClassCB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws501-v2/ws501-v2-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws501-v2/ws501-v2-encoder.js"
+        },
+        {
+            "id": "ws502_2w_w11",
+            "name": "WS502(2W-EU/CN)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6782",
+            "deveui": "24e124782",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA",
+                "ClassCB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws502-v2/ws502-v2-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws502-v2/ws502-v2-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws502-v2/ws502-v2-encoder.js"
+        },
+        {
+            "id": "ws503_2w_w11",
+            "name": "WS503(2W-EU/CN)",
+            "description": "Wall Switch",
+            "catalog": "ws",
+            "sn": "6782",
+            "deveui": "24e124782",
+            "device_profile": [
+                "ClassC-OTAA",
+                "ClassB-OTAA",
+                "ClassCB-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws503-v2/ws503-v2-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws503-v2/ws503-v2-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws503-v2/ws503-v2-encoder.js"
+        },
+        {
+            "id": "ws513",
+            "name": "WS513",
+            "description": "Wall Socket",
+            "catalog": "ws",
+            "sn": "6598",
+            "deveui": "24e124598",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws513/ws513-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws513/ws513-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws513/ws513-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "socket_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws515",
+            "name": "WS515",
+            "description": "Wall Socket",
+            "catalog": "ws",
+            "sn": "6598",
+            "deveui": "24e124598",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws515/ws515-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws515/ws515-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws515/ws515-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "socket_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws513_w11",
+            "name": "WS513",
+            "description": "Wall Socket",
+            "catalog": "ws",
+            "sn": "6762",
+            "deveui": "24e124762",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws513/ws513-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws513/ws513-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws513/ws513-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "socket_status",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws523",
+            "name": "WS523",
+            "description": "Portable Socket",
+            "catalog": "ws",
+            "sn": "6148",
+            "deveui": "24e124148",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws523/ws523-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws523/ws523-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws523/ws523-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "socket_status",
+                "report_interval",
+                "delay_time",
+                "socket_status",
+                "cancel_delay",
+                "current_threshold",
+                "child_lock_config",
+                "power_consumption_enable",
+                "reset_power_consumption",
+                "led_enable",
+                "overcurrent_protection",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws525",
+            "name": "WS525",
+            "description": "Portable Socket",
+            "catalog": "ws",
+            "sn": "6148",
+            "deveui": "24e124148",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws525/ws525-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws525/ws525-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws525/ws525-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "socket_status",
+                "report_interval",
+                "delay_time",
+                "socket_status",
+                "cancel_delay",
+                "current_threshold",
+                "child_lock_config",
+                "power_consumption_enable",
+                "reset_power_consumption",
+                "led_enable",
+                "overcurrent_protection",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "ws558",
+            "name": "WS558",
+            "description": "Smart Light Controller",
+            "catalog": "ws",
+            "sn": "6756",
+            "deveui": "24e124756",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/ws558/ws558-codec.json",
+            "decoder_script": "vendors/milesight-iot/ws558/ws558-decoder.js",
+            "encoder_script": "vendors/milesight-iot/ws558/ws558-encoder.js",
+            "device_entities": [
+                "voltage",
+                "active_power",
+                "power_factor",
+                "power_consumption",
+                "current",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "wt101",
+            "name": "WT101",
+            "description": "Wireless Thermostat",
+            "catalog": "wt",
+            "sn": "6714",
+            "deveui": "24e124714",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wt101/wt101-codec.json",
+            "decoder_script": "vendors/milesight-iot/wt101/wt101-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wt101/wt101-encoder.js",
+            "device_entities": [
+                "battery",
+                "temperature",
+                "temperature_target",
+                "valve_opening",
+                "tamper_status",
+                "window_detection",
+                "motor_calibration_result",
+                "motor_stroke",
+                "freeze_protection",
+                "motor_position",
+                "timezone",
+                "sync_time",
+                "report_interval",
+                "time_sync_enable",
+                "temperature_control",
+                "temperature_control",
+                "temperature_calibration",
+                "temperature_target",
+                "temperature_error",
+                "valve_control_algorithm",
+                "freeze_protection_config",
+                "open_window_detection",
+                "restore_open_window_detection",
+                "valve_opening",
+                "valve_calibration",
+                "child_lock_config",
+                "timezone",
+                "sync_time",
+                "report_interval",
+                "time_sync_enable",
+                "temperature_control",
+                "temperature_control",
+                "temperature_calibration",
+                "temperature_target",
+                "temperature_error",
+                "valve_control_algorithm",
+                "freeze_protection_config",
+                "open_window_detection",
+                "restore_open_window_detection",
+                "valve_opening",
+                "valve_calibration",
+                "child_lock_config",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "wt201",
+            "name": "WT201",
+            "description": "Smart Radiator Thermostat",
+            "catalog": "wt",
+            "sn": "6715",
+            "deveui": "24e124715",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wt201/wt201-codec.json",
+            "decoder_script": "vendors/milesight-iot/wt201/wt201-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wt201/wt201-encoder.js",
+            "device_entities": [
+                "tsl_version",
+                "temperature",
+                "temperature_target",
+                "temperature_control_mode",
+                "temperature_control_status",
+                "fan_mode",
+                "fan_status",
+                "plan_event",
+                "system_status",
+                "humidity",
+                "wires_relay",
+                "plan_schedule",
+                "plan_settings",
+                "wires",
+                "ob_mode",
+                "temperature_control_mode_enable",
+                "temperature_control_status_enable",
+                "control_permissions",
+                "temperature",
+                "temperature_exception",
+                "humidity_exception",
+                "collection_interval",
+                "outside_temperature",
+                "temperature_threshold_config",
+                "child_lock_config",
+                "multicast_group_config",
+                "d2d_slave_config",
+                "d2d_master_config",
+                "sync_time",
+                "report_interval",
+                "temperature_calibration",
+                "freeze_protection_config",
+                "ob_mode",
+                "fan_mode",
+                "temperature_control_mode",
+                "temperature_target",
+                "temperature_unit",
+                "temperature_tolerance",
+                "temperature_level_up_condition",
+                "dst_config",
+                "timezone",
+                "card_config",
+                "plan_mode",
+                "outside_temperature_control_config",
+                "temperature_control_enable",
+                "d2d_master_enable",
+                "d2d_slave_enable",
+                "plan_config",
+                "temperature_unit",
+                "plan_schedule",
+                "wires",
+                "ob_mode",
+                "control_permissions",
+                "wires_relay_config",
+                "offline_control_mode",
+                "humidity_calibration",
+                "temperature_control_mode",
+                "temperature_target",
+                "temperature_control_mode",
+                "fan_delay_enable",
+                "fan_delay_time",
+                "fan_execute_time",
+                "fan_dehumidify",
+                "screen_display_mode",
+                "humidity_range",
+                "temperature_dehumidify",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "wt301",
+            "name": "WT301",
+            "description": "Smart Fan Coil Thermostat",
+            "catalog": "wt",
+            "sn": "",
+            "deveui": "",
+            "device_profile": [
+                "ClassC-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wt301/wt301-codec.json",
+            "decoder_script": "vendors/milesight-iot/wt301/wt301-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wt301/wt301-encoder.js",
+            "device_entities": [
+                "thermostat_status",
+                "btn_lock_enable",
+                "mode",
+                "fan_speed",
+                "temperature",
+                "temperature_target",
+                "card_mode",
+                "control_mode",
+                "server_temperature",
+                "thermostat_status",
+                "btn_lock_enable",
+                "mode",
+                "fan_speed",
+                "temperature",
+                "temperature_target",
+                "card_mode",
+                "control_mode",
+                "server_temperature",
+                "rssi",
+                "loRaSNR"
+            ]
+        },
+        {
+            "id": "wts305",
+            "name": "WTS305",
+            "description": "Weather Station",
+            "catalog": "wts",
+            "sn": "6454",
+            "deveui": "24e124454",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wts305/wts305-codec.json",
+            "decoder_script": "vendors/milesight-iot/wts305/wts305-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wts305/wts305-encoder.js"
+        },
+        {
+            "id": "wts505",
+            "name": "WTS505",
+            "description": "Weather Station",
+            "catalog": "wts",
+            "sn": "6454",
+            "deveui": "24e124454",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wts305/wts305-codec.json",
+            "decoder_script": "vendors/milesight-iot/wts305/wts305-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wts305/wts305-encoder.js"
+        },
+        {
+            "id": "wts506",
+            "name": "WTS506",
+            "description": "Weather Station",
+            "catalog": "wts",
+            "sn": "6454",
+            "deveui": "24e124454",
+            "device_profile": [
+                "ClassA-OTAA"
+            ],
+            "codec": "vendors/milesight-iot/wts305/wts305-codec.json",
+            "decoder_script": "vendors/milesight-iot/wts305/wts305-decoder.js",
+            "encoder_script": "vendors/milesight-iot/wts305/wts305-encoder.js"
+        }
+    ]
+}

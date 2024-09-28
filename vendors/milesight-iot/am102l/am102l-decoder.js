@@ -3,7 +3,7 @@
  *
  * Copyright 2024 Milesight IoT
  *
- * @product AM102
+ * @product AM102L
  */
 function Decode(fPort, bytes) {
     return milesight(bytes);

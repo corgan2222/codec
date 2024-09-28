@@ -3,7 +3,7 @@
  *
  * Copyright 2024 Milesight IoT
  *
- * @product CT101
+ * @product CT103
  */
 function Encode(fPort, obj) {
     var encoded = [];

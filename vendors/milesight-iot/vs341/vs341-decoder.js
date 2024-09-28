@@ -3,7 +3,7 @@
  *
  * Copyright 2024 Milesight IoT
  *
- * @product VS340
+ * @product VS341
  */
 function Decode(fPort, bytes) {
     return milesight(bytes);
