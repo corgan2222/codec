@@ -49,6 +49,11 @@ jobs:
             fi
           done
 
+          # Copy root-level files into milesight-iot folder
+          cp "$SOURCE/devices.json" "$STAGING/devices.json"
+          cp "$SOURCE/logo.png" "$STAGING/logo.png"
+          echo "Copied devices.json and logo.png"
+
           echo "--- Final structure ---"
           ls -1 "$STAGING"
 
