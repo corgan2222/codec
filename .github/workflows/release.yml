@@ -24,9 +24,17 @@ jobs:
         run: |
           TAG="${{ steps.tag.outputs.TAG }}"
           STAGING="staging/codec-${TAG}/vendors/milesight-iot"
+          STAGING_ROOT="staging/codec-${TAG}"
           SOURCE="vendors/milesight-iot"
 
           mkdir -p "$STAGING"
+
+          # Copy root-level files into codec-<tag>/ root
+          cp README.md "$STAGING_ROOT/README.md"
+          cp bacnet_unit.md "$STAGING_ROOT/bacnet_unit.md"
+          cp vendors.json "$STAGING_ROOT/vendors.json"
+          cp version.json "$STAGING_ROOT/version.json"
+          echo "Copied root files"
 
           # Iterate over all series folders
           for series_dir in "$SOURCE"/*/; do

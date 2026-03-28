@@ -1,6 +1,6 @@
 {
-    "date": "2026-03-13",
-    "version": "1.5.31",
+    "date": "2026-03-28",
+    "version": "1.5.31_esec",
     "vendors": "vendors.json",
-    "link": "https://github.com/Milesight-IoT/codec/archive/refs/heads/release.zip"
+    "link": "https://github.com/corgan2222/codec/releases"
 }
