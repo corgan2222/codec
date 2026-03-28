@@ -388,7 +388,7 @@ function injectLoRaData(decoded) {
     decoded.mac = LoRaObject.rxInfo[0].mac;
     decoded.gw = LoRaObject.rxInfo[0].name;
     decoded.timestamp = LoRaObject.time;
-    decoded.type = 'EM300-SLD/EM300-ZLD';
+    decoded.type = 'EM300-SLD';
 
     return decoded;
 }
