@@ -1,0 +1,80 @@
+name: Create Release
+
+"on":
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: release
+          fetch-depth: 1
+
+      - name: Get tag name
+        id: tag
+        run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Build flat milesight-iot structure
+        run: |
+          TAG="${{ steps.tag.outputs.TAG }}"
+          STAGING="staging/codec-${TAG}/vendors/milesight-iot"
+          SOURCE="vendors/milesight-iot"
+
+          mkdir -p "$STAGING"
+
+          # Iterate over all series folders
+          for series_dir in "$SOURCE"/*/; do
+            series_name=$(basename "$series_dir")
+
+            # Check if the series folder contains device subfolders
+            has_subdirs=$(find "$series_dir" -mindepth 1 -maxdepth 1 -type d | wc -l)
+
+            if [ "$has_subdirs" -gt 0 ]; then
+              # Series has subfolders -> copy each device folder directly into the output
+              for device_dir in "$series_dir"*/; do
+                device_name=$(basename "$device_dir")
+                echo "  Copying device: $series_name/$device_name -> $device_name"
+                cp -r "$device_dir" "$STAGING/$device_name"
+              done
+            else
+              # Series has no subfolders -> copy the series folder directly
+              echo "  Copying series (no subfolders): $series_name"
+              cp -r "$series_dir" "$STAGING/$series_name"
+            fi
+          done
+
+          echo "--- Final structure ---"
+          ls -1 "$STAGING"
+
+      - name: Create ZIP archive
+        run: |
+          TAG="${{ steps.tag.outputs.TAG }}"
+          cd staging
+          zip -r "../codec-${TAG}.zip" "codec-${TAG}/"
+          echo "ZIP created: codec-${TAG}.zip"
+          ls -lh "../codec-${TAG}.zip"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.TAG }}
+          name: "Codec ${{ steps.tag.outputs.TAG }}"
+          body: |
+            ## Codec ${{ steps.tag.outputs.TAG }}
+
+            ### Contents
+            The ZIP contains all Milesight-IoT device data with a flat structure:
+            `codec-${{ steps.tag.outputs.TAG }}/vendors/milesight-iot/<device>/`
+
+            All series folders have been resolved — device folders are placed directly under `milesight-iot/`.
+          files: codec-${{ steps.tag.outputs.TAG }}.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
