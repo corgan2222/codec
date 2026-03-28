@@ -28,6 +28,7 @@ function Decoder(bytes, port) {
 
 function milesightDeviceDecode(bytes) {
     var decoded = {};
+    injectLoRaData(decoded);
 
     var unknown_command = 0;
     for (var i = 0; i < bytes.length; ) {
@@ -940,4 +941,18 @@ function getValue(map, key) {
     var value = map[key];
     if (!value) value = "unknown";
     return value;
+}
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'WT401';
+
+    return decoded;
 }

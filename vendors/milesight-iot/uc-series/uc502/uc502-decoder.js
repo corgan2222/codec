@@ -32,6 +32,7 @@ var adc_alarm_chns = [0x85, 0x86];
 
 function milesightDeviceDecode(bytes) {
     var decoded = {};
+    injectLoRaData(decoded);
 
     for (var i = 0; i < bytes.length; ) {
         var channel_id = bytes[i++];
@@ -514,3 +515,18 @@ function getValue(map, key) {
         },
     });
 //}
+
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'UC50x';
+
+    return decoded;
+}

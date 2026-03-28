@@ -26,6 +26,7 @@ function Decoder(bytes, port) {
 
 function milesightDeviceDecode(bytes) {
     var decoded = {};
+    injectLoRaData(decoded);
 
     if (bytes.length != 6) {
         return decoded;
@@ -80,4 +81,19 @@ function readUInt8(bytes) {
 function readInt8(bytes) {
     var ref = readUInt8(bytes);
     return ref > 0x7f ? ref - 0x100 : ref;
+}
+
+
+function injectLoRaData(decoded) {
+    decoded.devEUI = LoRaObject.devEUI;
+    decoded.applicationName = LoRaObject.applicationName;
+    decoded.deviceName = LoRaObject.deviceName;
+    decoded.rssi = LoRaObject.rxInfo[0].rssi;
+    decoded.loRaSNR = LoRaObject.rxInfo[0].loRaSNR;
+    decoded.mac = LoRaObject.rxInfo[0].mac;
+    decoded.gw = LoRaObject.rxInfo[0].name;
+    decoded.timestamp = LoRaObject.time;
+    decoded.type = 'GS524N';
+
+    return decoded;
 }
